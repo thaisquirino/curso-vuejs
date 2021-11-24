@@ -7,12 +7,14 @@
 </head>
 <body>
     <div  id="start">
-      <h1>{{message}}</h1> {{message}}
-    </div>
+      <h1>{{message}}</h1> 
 
 
-    <script src="vue.js"></script>
-    <script>
+    <!-- <script src="vue.js"></script>  versão classica-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"> Versão CDN </script> -->
+    <script src="node_modules/vue/dist/vue.min.js"></script>
+
+   <script>
           let app = new Vue ({
           el:'#start',
             data:{
